@@ -1,0 +1,8 @@
+- **Project 1: Own Mini-CTF Platform**
+You will build a small "Capture The Flag" hacking competition from the ground up. This involves creating a web interface to submit flags, using Docker to safely isolate the environment, and programming at least six custom hacking challenges. You'll need to write custom vulnerable C programs for buffer overflows/ROP, create web vulnerabilities (like SQLi or XSS), and provide detailed documentation on how to solve each one.
+
+- **Project 2: Cryptographic Library in C with Attack Demonstration**
+You will write your own crypto library from scratch in C, implementing AES-128, RSA, and SHA-256 without using existing libraries like OpenSSL for the core math. Once built, you must demonstrate a practical attack against your own code (such as a Padding-Oracle or Wiener attack) to show how these algorithms can be broken if not perfectly secured. It also requires strict unit testing against official reference values.
+
+- **Project 3: Vulnerable Webapp with Automated Exploit Framework**
+You will develop a realistic web application (like a forum or online shop) that is intentionally filled with at least eight specific security flaws from the OWASP Top 10 (such as Blind SQLi, Stored XSS, and IDOR). Alongside building the broken app, you must write an automated script in Python or Bash that systematically attacks and exploits every single vulnerability you created.
